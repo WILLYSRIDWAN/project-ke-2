@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url(https://ilmu.adhi.co.id/pluginfile.php/4358/course/overviewfiles/HiRes-17.jpg);
+        background-size: 55rem;
+}
+
+header {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+h3, h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.project button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.project button:hover {
+    background-color: #b9b9b9;
+}
+
+.kontak-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.kontak-item i {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.kontak-item p {
+    margin: 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
